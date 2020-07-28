@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    font-size: 100%;
+}
+
+.nav {
+    display: flex;
+    height: 13vh;
+    width: 100vw;
+    justify-content: flex-end;
+}
+
+.nav__menu {
+    display: none;
+}
+
+.nav__mobile {
+    height: 40%;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.banner__transition {
+    background: url(../img/foto-banner.jpg);
+    background-size: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100vw;
+    font-family: 'Varela Round';
+    text-align: center;
+}
+
+.banner__title {
+    color: #fff;
+    opacity: 80%;
+    font-size: 3.75rem;
+    align-items: center;
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
+    margin: 0;
+}
+
+.banner__subtitle {
+    color: #fff;
+    opacity: 80%;
+    padding: 30px 0 30px 0;
+    text-shadow: 1px 1px 3px black;
+    font-size: 1rem;
+}
+
+.banner__btn__transition {
+    background-color: #829dad;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+.about {
+    background-color: #000;
+    font-family: 'Varela Round';
+    color: whitesmoke;
+    opacity: 80%;
+    text-align: center;
+    height: auto;
+    width: 100vw;
+}
+
+.about__title {
+    margin: 0;
+    font-size: 1.35rem;
+    padding: 30px 0 0 0;
+}
+
+.about p {
+    margin: 0;
+    padding: 20px 40px 30px 40px;
+}
+
+h3 {
+    font-size: 1.15rem;
+}
+
+.container__destinos {
+    width: 80vw;
+    margin: 30px 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.destination__siberia {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.destination__title__siberia {
+    margin: 0;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+.destination__paragraph__siberia {
+    margin: 0 30px 15px;
+}
+
+.destination__siberia__img {
+    width: 100%;
+}
+
+.destination__groenlandia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.destination__groelandia__text {
+    background-color: #000;
+    opacity: 80%;
+}
+
+.destination__title__groelandia {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.destination__paragraph__groelandia {
+    padding: 30px;
+    margin: 0;
+    opacity: 40%;
+}
+
+.destination__groenlandia__img {
+    width: 100%;
+}
+
+.destination__antartida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.destination__antartida__text {
+    background-color: #000;
+    opacity: 80%;
+}
+
+.destination__paragraph__artartida {
+    padding: 30px;
+    margin: 0;
+    opacity: 40%;
+}
+
+.destination__title__artartida {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.destination__antartida__img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #000;
+    opacity: 80%;
+    color: whitesmoke;
+    text-decoration: none;
+    height: 30vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer__socialmedia {
+    display: flex;
+    flex-direction: grid;
+    color: whitesmoke;
+    opacity: 40%;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+}
+
+.footer__twitter,
+.footer__facebook,
+.footer__youtube {
+    padding: 10px;
+}
+
+.footer small,
+.tel {
+    padding: 30px 30px 10px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 40%;
+}
+
+
+@media (min-width: 768px) {
+
+    .banner__subtitle {
+
+        font-size: 1.2rem;
+    }
+
+    .banner__btn__transition {
+        font-size: 0.80rem;
+    }
+
+
+    .container__destinos {
+        width: 90vw;
+        margin: 30px 40px 30px 40px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .nav {
+        background-color: #a0bed0;
+    }
+
+    .nav__menu {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        color: whitesmoke;
+        align-items: center;
+        padding-right: 175px;
+        font-weight: bolder;
+        font-size: 1.1rem;
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+    .nav__link {
+        text-decoration: none;
+        padding: 30px;
+        margin: 0;
+        color: whitesmoke;
+    }
+
+    .nav__mobile {
+        display: none;
+    }
+
+    .banner__transition {
+        background-size: cover;
+        height: 85vh;
+    }
+
+    .banner__title {
+        font-size: 6.5rem;
+    }
+
+    .banner__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .banner__btn__transition {
+        font-size: 1rem;
+    }
+
+    .container__destinos {
+        width: 80vw;
+        align-items: center;
+        margin: 30px 40px 30px 120px;
+    }
+
+    .container__destinos h3 {
+        font-size: 1.4rem;
+    }
+
+    .container__destinos p {
+        font-size: 1rem;
+    }
+
+    .destination__siberia {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .destination__title__siberia {
+        padding-left: 10px;
+    }
+
+    .destination__paragraph__siberia {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .destination__siberia__img {
+        width: 80%;
+    }
+
+    .siberia__media__querie {
+        width: 20%;
+    }
+
+    .groelandia__artardida__media__querie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination__groenlandia {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        opacity: 80%;
+        width: 100%;
+        text-align: left;
+    }
+    .destination__antartida {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        opacity: 80%;
+        width: 100%;
+        text-align: right;
+
+    }
+    .destination__groelandia__text,
+    .destination__antartida__text {
+        width: 50%;
+        padding: 0;
+    }
+
+    .destination__title__groelandia{
+        padding-left: 30px;
+    }
+
+    .destination__title__artartida {
+        padding-right: 30px;
+    }
+
+    .destination__paragraph__groelandia,
+    .destination__paragraph__artartida {
+        padding: 10px;
+    }
+
+    .destination__groenlandia__img,
+    .destination__antartida__img {
+        width: 50%;
+    }
+
+    .tel {
+        font-size: 1.2rem;
+    }
+}
