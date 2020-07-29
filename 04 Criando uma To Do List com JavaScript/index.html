@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>to do list</title>
+</head>
+
+<body>
+
+
+
+    <div id="containerId" class="container">
+
+        <div class="header">
+
+            <h1 class="title" id="name-label"> to do list</h1>
+
+        </div>
+        <hr>
+
+        <div class="content">
+            <input type="text" required placeholder="type the task you wanna add" id="taskInput" class="task-input"
+                action="/add-task">
+            <p class="error"></p>
+            <button class="button-add" id="buttonAdd" type="submit">add a new task</button>
+            <ul class="task-list" id="taskList"></ul>
+            <div class="the-two-buttons">
+                <button class="delete-all">delete all tasks</button>
+                <button class="button-check-all" id="buttonCheckAll" type="submit">check all tasks</button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
