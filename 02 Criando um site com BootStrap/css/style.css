@@ -1,0 +1,57 @@
+.background {
+    background-color: whitesmoke;
+    opacity: 90%;
+}
+
+.nav-fonte-texto {
+    font-family: 'Varela Round';
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(139, 0, 0);
+    
+   /*text-shadow: black 2px 0 8px;*/
+}
+
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+
+.fonte-texto {
+    font-family: 'Varela Round', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #8b0000;
+}
+
+.fonte-titulo-card {
+    font-family: 'Varela Round', cursive;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.fonte-texto-card-footer {
+    font-family: 'Varela Round', cursive;
+    font-size: 15px;
+}
+
+.fonte-texto-footer p {
+    margin: 0;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: darkblue;
+}
+.footer {
+    background-color:whitesmoke;
+   
+   }
+#footer-redes {
+    font-size: 2em;
+}
