@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap" rel="stylesheet">
+    <title>björk</title>
+</head>
+
+<body>
+    <nav class="navegacao">
+        <div class="navegacao__box container">
+            <a class="navegacao__logo" href='bjork.html'>
+                <img class="img-responsive" src="img/logo-white.png" alt="Logo M de Maravilhosa" />
+            </a>
+            <div class="navegacao__itens" id="menuResponsivo">
+                <div class="navegacao__nav">
+                    <ul>
+                        <li>
+                            <a href='bjork.html'>Home</a>
+                        </li>
+                        <li>
+                            <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navegacao__redes-sociais">
+                    <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+                        <img src="img/icon-facebook.png" alt="Ícone do Facebook" />
+                    </a>
+                    <a href="https://twitter.com/ReprogramaBr" target="_blank">
+                        <img src="img/icon-twitter.png" alt="Ícone do Twitter" />
+                    </a>
+                    <a href="https://www.instagram.com/reprogramabr/" target="_blank">
+                        <img src="img/icon-instagram.png" alt="Ícone do Instagram" />
+                    </a>
+                    <a href="https://www.linkedin.com/company/reprogramabr/" target="_blank">
+                        <img src="img/icon-linkedin.png" alt="Ícone do LinkedIn" />
+                    </a>
+                </div>
+            </div>
+            <div class="navegacao__menu-hamburguer" id="btnResponsivo">
+                <a href="#">
+                    <img src="img/menu-nav.png" alt="Menu de navegação" />
+                </a>
+            </div>
+        </div>
+    </nav>
+    <header class="header-logo">
+        <img src="img/bjork-Logo-1.png" class="logo">
+    </header>
+
+    <main class="main">
+        <section class="bio">
+
+            <article class="principal-bio">
+                <h2 class="titulo-bio">Biografia</h2>
+                <img src="/img/img-bio.jpg" class="img-bio" alt="foto da musicista bjork">
+                <p class="texto-bio">
+                    Björk Guðmundsdóttir é uma cantora islandesa, compositora, atriz, instrumentista e produtora
+                    musical,
+                    nascida e criada em Reykjavik, capital da Islândia no ano de 1965.
+                    Já lançou nove álbuns de estúdio, duas trilhas sonoras. Seu estilo musical é único e sua voz é
+                    aclamada por suas qualidades distintivas e incomuns.
+                    <br>
+                    A carreira musical de Björk começou aos onze anos, com seu estudo de clássicos de piano na escola
+                    primária, sendo que uma de suas gravações foi transmitida pela rádio nacional, e, depois de ouvi-la,
+                    um representante da gravadora Fálkinn contactou a família para oferecer um contrato para a menina.
+                    <br>
+                    Björk tem uma extensa discografia com 13 discos de estúdio, incluindo a carreira
+                    solo, bandas e duas
+                    trilhas sonoras.
+
+                    Além disso, a musicista foi indicada 13 vezes para o Grammy, um Oscar e dois Globos de Ouro.
+                    Ganhou cinco prêmios BRIT Awards, quatro MTV Video Music Awards, um MOJO Awards, três UK Music Video
+                    Awards e, em particular, ela recebeu, em 2010, o Polar Music Prize da Royal Swedish Academy of
+                    Music (considerado o Prêmio Nobel da Música), em reconhecimento por sua "música profundamente
+                    pessoal e letras de músicas, seus arranjos
+                    precisos e sua voz única".
+                    <br>
+                    Björk tem uma forte relação com a cultura brasileira, desde a música que fez em homenagem a célebre
+                    cantora brasileira Elis Regina até parcerias musicais com artistas brasileiros como Milton
+                    Nascimento.
+                </p>
+            </article>
+        </section>
+
+        <section class="discografia">
+            <h2 class="titulo-disco">Discografia</h2>
+            <div class="busca-disco">
+                <form id="form" class="form-disco">
+                    <input class="input-disco" id="inputDisco" type="search" placeholder="digite o nome do disco"
+                        aria-label="Search" required>
+                </form>
+                <button class="botao-disco" id="botaoDisco">Busca</button>
+            </div>
+            <p class="erro-disco" id="erroDisco"></p>
+            <p class="limpa-busca-disco" id="limpaBusca">Limpar a busca</p>
+            <div class="cards-disco" id="cardsDisco">
+                <!-- Aqui será gerada a discografia a partir do JavaScript -->
+            </div>
+        </section>
+
+        <section class="videografia">
+            <h2 class="titulo-video"> Videografia</h2>
+            <article class="principal-video">
+                <p class="texto-video">
+                    Assim como sua música, os clipes da Björk tem uma estética particular e inovadora, trazendo uma obra
+                    audio-visual extensa que dialoga perfeitamente com a música.
+                </p>
+
+                <div class="video-clipe-mq">
+                    <iframe class="video-clipe" src="https://www.youtube.com/embed/-WnzRqCK6Fs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe class="video-clipe" src="https://www.youtube.com/embed/-OBD-al0cIM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe class="video-clipe" src="https://www.youtube.com/embed/aWrV8NQnbqE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe class="video-clipe" src="https://www.youtube.com/embed/WxL1rw6cw-E" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+
+            </article>
+        </section>
+
+        <section class="filmografia">
+
+
+            <article class="principal-filme">
+                <h2 class="titulo-filme">Filmografia</h2>
+                <img src="/img/flm-img.jpg" class="img-flm"
+                    alt="foto da musicista bjork vestindo um vestido de cisne">
+                <p class="texto-filme">
+                    Björk, começou sua aparição em filmes em 1990, quando ela apareceu em Juniper Tree, um conto de
+                    bruxaria
+                    baseado na história dos Irmãos Grimm com o mesmo nome, desempenhado o papel de Margit, uma
+                    menina cuja mãe foi morta por praticar bruxaria. Björk também teve um papel não creditado, em 1994,
+                    no filme Prêt-à-Porter.
+                    <br>
+                    Em 1999, Björk foi convidada a escrever e produzir o musical para o filme Dancer in the Dark, um
+                    drama musical sobre uma imigrante chamada Selma. Após ver o resultado da trilha sonora, o diretor
+                    lhe pediu para considerar interpretar o papel de Selma. Ela aceitou depois de uma série de
+                    chantagens do diretor.O filme recebeu a Palme d'Or, e Björk recebeu o Prêmio Melhor Atriz por seu
+                    papel.
+                    Anos depois, a musicista revelou em suas redes sociais que sofreu vários tipos de assédio do diretor
+                    durante as filmagens. A trilha do filme foi lançada com o título Selma Songs no ano 2000. O álbum
+                    apresenta um dueto com Thom Yorke do Radiohead intitulado "I've seen it All", que foi nomeado para
+                    um Oscar de Melhor Canção em 2001, enquanto Björk estava usando o seu célebre vestido-cisne.
+                    <br>
+                    Björk também apareceu em 2005 o documentário Screaming Masterpiece. O filme apresenta imagens de
+                    arquivo dos Sugarcubes e Tappi Tíkarrass, e uma conversa em curso com a própria artista.
+                    A cantora também colaborou no filme arte experimental, Drawing Restraint 9, uma exploração da
+                    cultura japonesa. O filme foi lançado em 2005. Ela é também foi responsável pela trilha sonora do
+                    filme, lançada em CD homônimo.
+                    <br>
+                </p>
+                <div class="iframe-video">
+                    <iframe
+                        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbjork%2Fposts%2F10155777444371460&show_text=true&width=552&height=265&appId"
+                        class="quote-filme" scrolling="no" frameborder="0" allowTransparency="true"
+                        allow="encrypted-media">
+                    </iframe>
+                    <iframe class="video-filme" src="https://www.youtube.com/embed/-q1sEZo7ezw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </article>
+        
+        </section>
+        
+        <hr>
+        <h3 class="sobre-titulo">{ desenvolvido por Lúcia Vulcano }</h3>
+
+        <div class="sobre-container">
+            <button id="sobreBotao" class="sobre-botao">Mais sobre mim</button>
+        </div>
+
+        <div id="sobreMain" class="sobre-main">
+
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__principal">
+            <ul class="rodape__navegacao">
+                <li>
+                    <a href="bjork.html">Home</a>
+                </li>
+                <li>
+                    <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
+                </li>
+            </ul>
+            <div class="rodape__logo">
+                <img class="img-responsive" src="img/logo-white.png" alt="logo M de Maravilhosa" />
+            </div>
+            <div class="rodape__redes-sociais">
+                <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+                    <img src="img/fb-icone.png" alt="Icone do facebook Reprograma" />
+                    <span>/br.mdemaravilhosa</span>
+                </a>
+            </div>
+        </div>
+        <div class="rodape__cc">
+            <p>2020 | Feito com amor por Reprograma</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/navBar.js"></script>
+    <script src="js/busca.js"></script>
+    <script src="js/sobreMim.js"></script>
+</body>
+
+</html>
