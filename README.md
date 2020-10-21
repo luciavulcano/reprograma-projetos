@@ -4,7 +4,7 @@ Durante os meses de maio e julho de 2020, participei do BootCamp da {reprograma}
 
 Esse são os projetos mais relevantes que eu desenvolvi durante esse período.
 
-01 Criando um site responsivo
+<b>01 Criando um site responsivo</b>
 
   Foi dado um modelo de design para ser reproduzido com os conceitos de mobile first e flexbox. 
   
