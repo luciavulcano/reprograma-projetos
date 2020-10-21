@@ -8,15 +8,15 @@ Esse são os projetos mais relevantes que eu desenvolvi durante esse período.
 
   Foi dado um modelo de design para ser reproduzido com os conceitos de mobile first e flexbox. 
   
-02 Criando um site com Bootstrap
+<b>02 Criando um site com Bootstrap</b>
 
   Utilizando o Bootstrap e suas principais ferramentas, montei uma landing page.
   
-03 Criando uma calculadora de média com JavaScript
+<b>03 Criando uma calculadora de média com JavaScript</b>
 
   Modelo de calculadora que interage com o usuário utilizando JavaScript e manipulação do DOM
   
-04 Criando uma To Do List com JavaScript
+<b>04 Criando uma To Do List com JavaScript</b>
 
   To do list com as funcionalidades de:
     Mensagem de erro quando a tarefa não é adicionada corretamente;
@@ -25,7 +25,7 @@ Esse são os projetos mais relevantes que eu desenvolvi durante esse período.
     Botão de deletar tarefa e;
     Criar uma checkbox vazia.
 
-05 Projeto Final
+<b>05 Projeto Final</b>
 
   Projeto final utilizanto todos os conceitos aprendidos durante o bootcamp. 
   Escolhi a artista Bjôrk para esse projeto, que é uma landing page responsiva e mobile first, com informações sobre a carreira da cantora e um mecanismo de busca para sua       discografia.
